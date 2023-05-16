@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FAQ</title>
+	<!-- link to Bootstrap CSS file -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+		<h1 class="text-center my-5">Frequently Asked Questions</h1>
+		<div class="accordion" id="faqAccordion">
+			<!-- add questions and answers as needed -->
+			<div class="card">
+				<div class="card-header" id="headingOne">
+					<h2 class="mb-0">
+						<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							Question 1: What is your return policy?
+						</button>
+					</h2>
+				</div>
+				<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#faqAccordion">
+					<div class="card-body">
+						Our return policy is...
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" id="headingTwo">
+					<h2 class="mb-0">
+						<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+							Question 2: How long does shipping take?
+						</button>
+					</h2>
+				</div>
+				<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqAccordion">
+					<div class="card-body">
+						Shipping typically takes...
+					</div>
+				</div>
+			</div>
+			<!-- add more questions and answers as needed -->
+		</div>
+	</div>
+	
+	<!-- link to Bootstrap JS files (jQuery and Popper.js) -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+	<!-- link to Bootstrap JS file -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
